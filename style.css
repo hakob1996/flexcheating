@@ -32,15 +32,20 @@ button {
     top:210px;
 }
 
-
 #otherMenu{
+    position: absolute;
+    left:10px;
+    top:290px;
+   
+}
+
+.otherMenu{
+    width: 360px;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
     font-size: 14px;
-    left:10px;
-    top:213px;
-
+    margin: 0px;
+    padding-top:5px;
 }
 
 #prof-image {
@@ -210,6 +215,13 @@ button {
     }
 
     #toMain{
+        background-color: #2c2a2b;
+        width: 360px;
+        height: 50px;
+        font-size: 35px;
+    }
+
+    #toMain2{
         background-color: #2c2a2b;
         width: 360px;
         height: 50px;
