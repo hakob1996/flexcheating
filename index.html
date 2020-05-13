@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
+<body onload="startTime()">
     <div id="menu">
             <div id="prof-image"></div>
             <p id="name">Hakob Muradyan</p>
@@ -29,8 +29,19 @@
 
     <div id="readyP">
         <div id="toMain"><button>&#9776;</button></div>
-            <div id="ready">Head Inside! Your Packages Are Ready To Pick Up</div>
-                <div id="scan"><button>SCAN 31 PACKAGES</button></div>
+        <div id= "grey"><h6><b>How to pick up from a store</b></h6>
+            <ul>
+                    <li>If the order isn't ready, wait outside</li>
+                    <li>If the order is ready, go inside and find your assigned packages</li>
+                    <li>Find and scan each of your assigned packages</li>
+                  </ul>
+        </div>
+    
+        <div id="grey2"></div>
+        <div id="WFM">Whole Foods Market</div>
+        <div id="shelfs" ><h5 style="text-align: center;">Go inside</h5> <br> <p id="ready" style="text-align: left;">Your Packages Are Ready To Pick Up</p> <br> <br> <p><b>Pickup instructions</b></p> SHELF-05-C <br> SHELF-04-B <br> SHELF-11-A <br> CHILLER-08-C <br> CHILLER-11-B <br> FREEZER-03-C</div>
+        
+                <div id="scan"><button>SCAN PACKAGES</button></div>
     
         </div>
     
@@ -44,6 +55,23 @@
     <script>
         var d = new Date();
         document.getElementById("time").innerHTML = d;
+
+  function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var h1 = today.getHours() - 1;
+ 
+  m = checkTime(m);
+
+  document.getElementById('grey2').innerHTML =
+  "PICKUP " + h1 + ":" + m +  " - " + h + ":" + m ;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
     </script>
     <script type="text/javascript" src="script.js"></script>
         
