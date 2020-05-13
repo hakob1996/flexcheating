@@ -23,19 +23,19 @@ button {
 
 }
 
-#current{
+/* #current{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     font-size: 14px;
-    left:10px;
-    top:210px;
-}
+     left:10px;
+    top:210px; 
+} */
 
 #otherMenu{
     position: absolute;
     left:10px;
-    top:290px;
+    top:220px;
    
 }
 
