@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlexIDWF</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="menu">
+            <div id="prof-image"></div>
+            <p id="name">Hakob Muradyan</p>
+            <div id="current"><p>CURRENT STOP >  <p>TODAY'S ITINERARY  ></p></div>
+            <div id="otherMenu">  <br> <br> <br>  HOME > <br> OFFERS > <br> CALENDAR ><br> EARNINGS > <br> FEEDBACK > <br> SETTINGS > <br> HELP > <br> VIDEOS ></p>
+            </div>
+    </div>
+
+    <div id="zoomedIn">
+        <div id="orangePart"><button>X</button></div>
+            <div id="prof-imageZoom"></div>
+            <p id="nameZoom">Hakob Muradyan</p>
+            <div id="onDuty">ON DUTY</div>
+            <div id="time"></div>
+
+    </div>
+
+
+    <div id="readyP">
+        <div id="toMain"><button>&#9776;</button></div>
+            <div id="ready">Head Inside! Your Packages Are Ready To Pick Up</div>
+                <div id="scan"><button>SCAN 31 PACKAGES</button></div>
+    
+        </div>
+    
+
+
+
+
+
+
+
+    <script>
+        var d = new Date();
+        document.getElementById("time").innerHTML = d;
+    </script>
+    <script type="text/javascript" src="script.js"></script>
+        
+</body>
+</html>
