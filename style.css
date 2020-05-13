@@ -1,8 +1,8 @@
 #menu{
     position: relative;
     background-color: #2c2a2b;
-    width: 400px;
-    height: 800px;
+    width: 360px;
+    height: 740px;
 }
 
 button {     
@@ -19,6 +19,7 @@ button {
     position: absolute;
     left:125px;
     top:170px;
+    font-size: 18px;
 
 }
 
@@ -26,7 +27,7 @@ button {
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    font-size: 11px;
+    font-size: 14px;
     left:10px;
     top:210px;
 }
@@ -36,7 +37,7 @@ button {
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    font-size: 11px;
+    font-size: 14px;
     left:10px;
     top:213px;
 
@@ -73,15 +74,15 @@ button {
 
     position: relative;
     background-image: url("assets/zoomIN.jpg");
-    width: 400px;
-    height: 800px;
+    width: 360px;
+    height: 740px;
 }
 
 #orangePart{
     color: white;
     font-size:25px;
     background-color: #ffa51d;
-    width: 400px;
+    width: 360px;
     height: 40px;
     text-align: right;    
 }
@@ -155,8 +156,8 @@ button {
     display: none;
     position: relative;
     background-image: url("assets/zoomIN.jpg");
-    width: 400px;
-    height: 800px;
+    width: 360px;
+    height: 740px;
 
     }
 
@@ -168,9 +169,9 @@ button {
 
     #scan{
         position: absolute;
-        width:400px;
+        width:360px;
         height: 50px;
-        top: 800px;
+        top: 740px;
         background-color: #ffa51d;
         text-align: center;
         padding-top: 10px;
@@ -179,7 +180,7 @@ button {
 
     #toMain{
         background-color: #2c2a2b;
-        width: 400px;
+        width: 360px;
         height: 50px;
         font-size: 35px;
     }
