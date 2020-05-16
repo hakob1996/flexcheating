@@ -14,7 +14,7 @@ body{
     color: white;
     position: relative;
     background-image: url(assets/firstwall.jpg);   
-    width: 360x;
+    width: 360px;
     height: 740px;
 }
 
@@ -153,7 +153,7 @@ button {
         position: absolute;
         font-family: Arial, Helvetica, sans-serif;
         left:100px;
-        top:380px;
+        top:376px;
         font-size: 22px;
     }
 
@@ -234,8 +234,8 @@ button {
     #scan{
         position: absolute;
         width:360px;
-        height: 50px;
-        top: 650px;
+        height: 60px;
+        top: 630px;
         background-color: #ff7716;
         text-align: center;
         padding-top: 10px;
