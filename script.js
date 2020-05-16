@@ -10,6 +10,12 @@ var many = document.getElementById("many");
 var manyBtn = document.getElementById("manybtn"); 
 var firstPage = document.getElementById("firstPage");
 var value = document.getElementById("fname");
+var click = document.getElementById("scan");
+
+var openApp = function() {
+    window.location.replace('amazonflex://');
+  };
+
 
 manyBtn.addEventListener('click', function(){
     menu.style.display = "block";
@@ -39,5 +45,9 @@ toMenu.addEventListener('click', function(){
     menu.style.display = "block";
     ready.style.display = "none";
 });
+
+click.addEventListener("click", function(){
+    openApp();
+})
 
 
