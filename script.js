@@ -6,6 +6,18 @@ var ready = document.getElementById("readyP");
 var current = document.getElementById("current");
 var zoomToScan = document.getElementById("orangePart");
 var toMenu = document.getElementById("toMain");
+var many = document.getElementById("many"); 
+var manyBtn = document.getElementById("manybtn"); 
+var firstPage = document.getElementById("firstPage");
+var value = document.getElementById("fname");
+
+manyBtn.addEventListener('click', function(){
+    menu.style.display = "block";
+    firstPage.style.display = "none";
+    many.innerHTML = "SCAN " + value.value + " PACKAGES";
+});
+
+
 
 
 clickZoom.addEventListener('click', function(){

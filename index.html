@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FlexIDWF</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body onload="startTime()">
+
+
+    <div id="firstPage">
+        <h2> Welcome to FlexIllusion </h2>
+        <br>
+        <h5> Please provide some information first</h5>
+    
+        <div id="questions">
+
+            <label for="fname">How Many Packages To Show?</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <button id="manybtn">Continue</button>
+        </div>
+
+    </div>
+
+
     <div id="menu">
             <div id="toMain2"><button>&#9776;</button></div>
             <div id="prof-image"></div>
@@ -40,7 +58,7 @@
     </div>
 
     <div id="zoomedIn">
-        <div id="orangePart"><button>X</button></div>
+        <div id="orangePart"><button ><i class="arrow down"></i></button></div>
             <div id="prof-imageZoom"></div>
             <p id="nameZoom">Hakob Muradyan</p>
             <div id="onDuty">ON DUTY</div>
@@ -50,7 +68,7 @@
 
 
     <div id="readyP">
-        <div id="toMain"><button>&#9776;</button></div>
+        <div id="toMain"><button id="dropMenu">&#9776;</button></div>
         <div id= "grey"><h6><b>How to pick up from a store</b></h6>
             <ul>
                     <li>If the order isn't ready, wait outside</li>
@@ -63,7 +81,7 @@
         <div id="WFM">Whole Foods Market</div>
         <div id="shelfs" ><h5 style="text-align: center;">Go inside</h5> <br> <p id="ready" style="text-align: left;">Your Packages Are Ready To Pick Up</p> <br> <br> <p><b>Pickup instructions</b></p> SHELF-05-C <br> SHELF-04-B <br> SHELF-11-A <br> CHILLER-08-C <br> CHILLER-11-B <br> FREEZER-03-C</div>
         
-                <div id="scan"><button>SCAN PACKAGES</button></div>
+                <div id="scan"><button><p id="many"></p></button></div>
     
         </div>
     
