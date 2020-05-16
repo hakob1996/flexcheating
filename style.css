@@ -14,7 +14,7 @@ body{
     color: white;
     position: relative;
     background-image: url(assets/firstwall.jpg);   
-    width: 375px;
+    width: 360x;
     height: 740px;
 }
 
@@ -22,7 +22,7 @@ body{
     display: none;
     position: relative;
     background-color: #2c2a2b;
-    width: 375px;
+    width: 360px;
     height: 740px;
 }
 
@@ -57,7 +57,7 @@ button {
 }
 
 .otherMenu{
-    width: 375px;
+    width: 360px;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -96,7 +96,7 @@ button {
 
     position: relative;
     background-image: url("assets/zoomIN.jpg");
-    width: 375px;
+    width: 360px;
     height: 740px;
 }
 
@@ -106,7 +106,7 @@ button {
     font-size:25px;
     /* background-color: #ffa51d; */
     background-image: url(assets/amaz1.jpg);
-    width: 375px;
+    width: 360;
     height: 50px;
     text-align: right;    
 }
@@ -190,7 +190,7 @@ button {
     position: relative;
     /* background-image: url("assets/zoomIN.jpg"); */
     background-color: white;
-    width: 375px;
+    width: 360px;
     height: 740px;
 
     }
@@ -203,7 +203,7 @@ button {
 
     #grey{
         background-color: #484848;
-        width: 375px;
+        width: 360px;
         height: 200px;
         color:white; 
         padding:10px;
@@ -211,7 +211,7 @@ button {
 
     #grey2{
         background-color: #484848;
-        width: 375px;
+        width: 360px;
         height: 40px;
         color:white; 
         padding:10px;
@@ -220,7 +220,7 @@ button {
 
     #WFM{
         background-color: white;
-        width: 375px;
+        width: 360px;
         height: 40px;
         font-size: 20px;
         padding-left: 15px;
@@ -233,7 +233,7 @@ button {
     }
     #scan{
         position: absolute;
-        width:375px;
+        width:360px;
         height: 50px;
         top: 650px;
         background-color: #ff7716;
@@ -244,7 +244,7 @@ button {
 
     #toMain{
         background-color: #2c2a2b;
-        width: 375px;
+        width: 360px;
         height: 50px;
         font-size: 35px;
         color: white;
@@ -258,7 +258,7 @@ button {
 
     #toMain2{
         background-color: #2c2a2b;
-        width: 375px;
+        width: 360px;
         height: 50px;
         font-size: 35px;
     }
