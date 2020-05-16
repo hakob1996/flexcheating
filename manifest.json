@@ -51,7 +51,7 @@
 
   <activity>
 <intent-filter>
-  <data android:scheme="flex://" />
+  <data android:scheme="amazon://" />
   <action android:name="android.intent.action.VIEW" />
   <category android:name="android.intent.category.DEFAULT" />
   <category android:name="android.intent.category.BROWSABLE" />

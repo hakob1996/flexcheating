@@ -13,7 +13,7 @@ var value = document.getElementById("fname");
 var click = document.getElementById("scan");
 
 var openApp = function() {
-    window.location.replace('flex://');
+    window.location.replace('amazon://');
   };
 
 
